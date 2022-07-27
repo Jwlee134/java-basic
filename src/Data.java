@@ -129,6 +129,10 @@ public class Data {
 
         System.out.println(map); // {chicken=닭, pig=돼지}
 
+        map.put("chicken", "치킨");
+
+        System.out.println(map);
+
         // key로 value 가져오기
         System.out.println(map.get("chicken")); // 닭
         System.out.println(map.get("ㅁㄴㅇㄹ")); // null
